@@ -33,3 +33,7 @@ print(input_list1) # in: 1 2 -> ['1', '2']
 
 input_list2 = list(map(lambda x: int(x), input().split()))
 print(input_list2) # in: 1 2 -> out: [1, 2]
+
+input_list3 = input().split(sep=' ', maxsplit=2)
+print(input_list3) # in: 1 2 3 4 -> out: ['1', '2', '3 4']
+# maxsplit을 정해주면 해당하는 횟수 까지만 앞에서부터 분할해준다.
