@@ -68,7 +68,7 @@ print(c[::-1]) # [1, 2, 2, 3]
 
 
 """
-리스트 검색, 연산 (slicing, all, any, max, min, enumerate, filter, sum, reduce, zip 등)
+리스트 검색, 연산 (slicing, all, any, max, min, enumerate, filter, sum, reduce, zip, len 등)
 """
 
 list_a = [1, 2, 3]
@@ -114,3 +114,6 @@ print(reduce(lambda x, y: x + y, list_a)) # 6
 # 묶어주기 (같은 인덱스 요소끼리 묶어줌)
 print(list(zip(list_a, list_b))) # [(1, 1), (2, 0), (3, 0)]
 print(list(zip(list_a, list_b, list_c))) # [(1, 1, 'a'), (2, 0, 'b'), (3, 0, 'c')]
+
+# 길이
+print(len(list_a)) # 3
