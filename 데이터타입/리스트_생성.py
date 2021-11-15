@@ -20,6 +20,9 @@ f = list(range(1, 5))
 g = list(range(1, 5, 2))
 print(e, f, g) # [0, 1, 2, 3, 4] [1, 2, 3, 4] [1, 3]
 
+# map 함수, lambda 식 사용하여 생성
+h = list(map(lambda x: x ** 2, range(5)))
+print(h) # [0, 1, 4, 9, 16]
 
 """
 다차원 리스트 생성
