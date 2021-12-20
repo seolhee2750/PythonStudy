@@ -1,4 +1,4 @@
-### PythonStudy
+# PythonStudy
 ```
 파이썬에 대해 공부하고, 중요한 내용을 정리합니다.
 ```
