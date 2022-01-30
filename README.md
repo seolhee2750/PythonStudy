@@ -8,6 +8,7 @@
 ## 🚗 입출력
 - 입력 [[코드]](https://github.com/seolhee2750/PythonStudy/blob/main/%EC%9E%85%EC%B6%9C%EB%A0%A5/%EC%9E%85%EB%A0%A5.py) [[블로그]](https://seolhee2750.tistory.com/141)
 - 출력 [[코드]](https://github.com/seolhee2750/PythonStudy/blob/main/%EC%9E%85%EC%B6%9C%EB%A0%A5/%EC%B6%9C%EB%A0%A5.py) [[블로그]](https://seolhee2750.tistory.com/141)
+- sys.stdin.readline 사용법 [[코드]](https://github.com/seolhee2750/PythonStudy/blob/main/%EC%9E%85%EC%B6%9C%EB%A0%A5/readline%EC%9E%85%EB%A0%A5.py) [[블로그]](https://seolhee2750.tistory.com/162)
 
 </br>
 
@@ -20,4 +21,4 @@
 </br>
 
 ## 🚙 기타
-- 재귀 깊이 제한
+- sys.setrecursionlimit() [[코드]](https://github.com/seolhee2750/PythonStudy/blob/main/%EA%B8%B0%ED%83%80%EC%A4%91%EC%9A%94%ED%8C%81/%EC%9E%AC%EA%B7%80_%EA%B9%8A%EC%9D%B4.py) [[블로그]](https://seolhee2750.tistory.com/161)
