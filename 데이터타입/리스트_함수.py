@@ -66,6 +66,19 @@ print(c) # [3, 2, 2, 1]
 # 슬라이싱을 활용하면 list(reversed(c))와 같은 효과를 낼 수 있음
 print(c[::-1]) # [1, 2, 2, 3]
 
+# key 키워드
+# sort, sorted 함수 모두 reverse 뿐만 아니라 key 매개변수를 가진다.
+# key는 정렬을 목적으로 하는 함수를 값으로 넣는데, lambda를 이용할 수 있다.
+# key값을 기준으로 정렬되고, 기본값은 오름차순이다.
+
+d = ['apple', 'hi', 'hello', 'e']
+e = [(2, 'a'), (3, 'b'), (1, 'd'), (1, 'c')]
+
+d.sort(key = lambda x: len(x)) # 각 요소의 길이를 기준으로 정렬
+e.sort(key = lambda x: (x[0], x[1])) # 튜플의 앞 요소 기준으로 정렬, 같을 경우 뒷 요소 기준 정렬
+print(d) # ['e', 'hi', 'apple', 'hello']
+print(e) # [(1, 'c'), (1, 'd'), (2, 'a'), (3, 'b')]
+
 
 """
 리스트 검색, 연산 (slicing, all, any, max, min, enumerate, filter, sum, reduce, zip, len 등)
