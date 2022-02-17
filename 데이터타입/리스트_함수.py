@@ -26,6 +26,10 @@ print(a) # ['zero', 'a', 'b', 'c', 'd', 'e', 1, 2]
 a.remove('zero')
 print(a) # ['a', 'b', 'c', 'd', 'e', 1, 2]
 
+# 맨 뒤 요소 삭제
+a.pop()
+print(a) # ['a', 'b', 'c', 'd', 'e', 1]
+
 # map 함수, lambda 식을 활용한 형변환, 값 수정
 print(list(map(lambda x: str(x), b))) # ['1', '2', '3']
 print(list(map(str, b))) # ['1', '2', '3']
